@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Water Reminder</string>
     <string name="notification_description">A notification channel for water reminder app</string>
+    <string name="basic_notification">Basic Notification</string>
+    <string name="expanded_notification">Expanded Notification</string>
+    <string name="expanded_long_text_notification">Expanded Long Text Notification</string>
+    <string name="inbox_style_notification">Inbox Style Notification</string>
+    <string name="notification_group">Notification Group</string>
+    <string name="show_notification">Show Notification</string>
 </resources>
