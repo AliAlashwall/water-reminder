@@ -1,11 +1,11 @@
-package com.example.waterreminder.ui
+package com.example.waterreminder
 
 import android.app.Application
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.os.Build
 import androidx.annotation.RequiresApi
-import com.example.waterreminder.R
+import com.example.waterreminder.utils.Constants
 
 class NotificationApplication : Application() {
     @RequiresApi(Build.VERSION_CODES.O)
@@ -13,11 +13,10 @@ class NotificationApplication : Application() {
         super.onCreate()
 
         val notificationChannel = NotificationChannel(
-            "water_reminder",
+            Constants.WATER_ID,
             "Water Reminder",
             NotificationManager.IMPORTANCE_HIGH
         )
-
 
         notificationChannel.description = getString(R.string.notification_description)
 
