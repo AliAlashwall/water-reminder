@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Water Reminder</string>
+    <string name="notification_description">A notification channel for water reminder app</string>
+</resources>
